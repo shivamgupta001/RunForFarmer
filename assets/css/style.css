@@ -1,0 +1,70 @@
+/* HOME PAGE CSS START*/
+.display--none{
+	display : none;
+}
+.bg-color--black{
+	background-color: black;
+}
+.margin--50{
+	margin : 50px;
+}
+.text-align--center{
+	text-align : center;
+}
+.float--right{
+	float: right;
+}
+
+.padding-top--10{
+	padding-top: 10px !important;
+}
+.height--150{
+	height : 150px !important;
+}
+.display--flex{
+	display : flex;
+}
+.map-css{
+	height: 100%;
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+
+.border-radius--50per{
+	border-radius: 50%;
+}
+.align-items--center{
+	align-items: center;
+}
+.bg-color--grey{
+	background-color: lightgrey
+}
+.padding--5{
+	padding: 5px;
+}
+.btn-green{
+	color : white;
+	background-color: green;
+	border: green;
+}
+.btn-darkorange button{
+	background-color: darkorange !important;	
+	color :white;
+}
+.btn-deepskyblue button{
+	background-color: deepskyblue !important;	
+	color : white;
+}
+.btn-mediumorchid button{
+	background-color: mediumorchid !important;
+	color: white;
+}
+.paddingLR--40{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.color--green{
+	color : green;
+}
+/* HOME PAGE CSS END*/
