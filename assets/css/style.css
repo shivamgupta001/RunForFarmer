@@ -21,9 +21,7 @@
 .height--150{
 	height : 150px !important;
 }
-.display--flex{
-	display : flex;
-}
+
 .map-css{
 	height: 100%;
     width: 100%;
@@ -64,7 +62,20 @@
 	padding-left: 40px;
 	padding-right: 40px;
 }
+.paddingLR--60{
+	padding-left: 60px;
+	padding-right: 60px;
+}
 .color--green{
 	color : green;
+}
+@media (min-width: 768px) {
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+    .display--flex{
+		display : flex;
+	}
 }
 /* HOME PAGE CSS END*/
