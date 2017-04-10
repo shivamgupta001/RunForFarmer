@@ -100,8 +100,8 @@
 .height--150{
 	height : 150px !important;
 }
-.height--525{
-	height : 525px;
+.min-height--525{
+	min-height : 525px;
 }
 .height--650{
 	height : 650px;
