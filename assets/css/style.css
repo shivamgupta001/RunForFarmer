@@ -1,12 +1,44 @@
-/* HOME PAGE CSS START*/
+/*override start*/
+.btn{
+	border-radius : 0px;
+	white-space : initial;
+}
+.btn-green{
+	color : white;
+	background-color: green;
+	border: green;
+}
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+.glyphicon-chevron-left:before {
+	content: url("../img/left_arw.PNG");
+}
+.glyphicon-chevron-right:before {
+	content: url("../img/right_arw.PNG");
+}
+@media (min-width: 768px) {
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+    .display--flex{
+		display : flex;
+	}
+}
+@media screen and (min-width: 768px){
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+		width: 48px;
+    	height: 48px;
+	}	
+}
+/*override end*/
+
+/* General css  start*/
+
 .display--none{
 	display : none;
-}
-.bg-color--black{
-	background-color: black;
-}
-.margin--50{
-	margin : 50px;
 }
 .text-align--center{
 	text-align : center;
@@ -14,37 +46,120 @@
 .float--right{
 	float: right;
 }
+.align-items--center{
+	align-items: center;
+}
+.max-width--1350{
+	max-width : 1350px;
+}
+.horizontal__center{
+	display: flex;
+	justify-content: center;
+}
 
+
+.bg-color--black{
+	background-color: black;
+}
+.bg-color--grey{
+	background-color: lightgrey
+}
+.bg-color--lightgreen{
+	background-color : #66cc00;	
+}
+
+
+.color--antiquewhite{
+	color : antiquewhite;
+}
+.color--green{
+	color : #006600;
+}
+
+
+.paddingLR--40{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.paddingLR--60{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.paddingTB--25{
+	padding : 25px 0px 25px 0px;
+}
 .padding-top--10{
 	padding-top: 10px !important;
 }
+.padding--5{
+	padding: 5px;
+}
+
+
+
 .height--150{
 	height : 150px !important;
 }
+.height--525{
+	height : 525px;
+}
+.height--650{
+	height : 650px;
+}
 
+
+.margin--50{
+	margin : 50px;
+}
+.margin--0{
+	margin : 0px;
+}
+
+
+.border-radius--50per{
+	border-radius: 50%;
+}
+.border--radius--2{
+	border-radius: 2px;
+}
+
+/*General css  end*/
+
+
+
+/*Home page css start*/
 .map-css{
 	height: 100%;
     width: 100%;
     padding: 15px;
     border: none;
 }
-
-.border-radius--50per{
-	border-radius: 50%;
+.headerLogo{
+	background-image: url("../img/headerLogo.png");
+	background-repeat: no-repeat;
+    width: 150px;
+    height: 90px;
+    display: inline-block;
+    float : left;
 }
-.align-items--center{
-	align-items: center;
+.socialMediaImg{
+	background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    display: inline-block;
 }
-.bg-color--grey{
-	background-color: lightgrey
+.socialMediaImg:hover{
+	cursor: pointer;
 }
-.padding--5{
-	padding: 5px;
+.socialFacebookImg{
+	background-image: url("../img/fb.PNG");
 }
-.btn-green{
-	color : white;
-	background-color: green;
-	border: green;
+.socialGogglePlusImg{
+	background-image: url("../img/g+.PNG");
+}
+.socialTwitterImg{
+	background-image: url("../img/twit.PNG");	
 }
 .btn-darkorange button{
 	background-color: #ff6600 !important;	
@@ -58,60 +173,4 @@
 	background-color: #cc3399 !important;
 	color: white;
 }
-.paddingLR--40{
-	padding-left: 40px;
-	padding-right: 40px;
-}
-.paddingLR--60{
-	padding-left: 60px;
-	padding-right: 60px;
-}
-.paddingTB--25{
-	padding : 25px 0px 25px 0px;
-}
-.color--green{
-	color : #006600;
-}
-.bg-color--lightgreen{
-	background-color : #66cc00;	
-}
-.height--525{
-	height : 525px;
-}
-.height--650{
-	height : 650px;
-}
-.max-width--1350{
-	max-width : 1350px;
-}
-.btn{
-	border-radius : 0px;
-	white-space : initial;
-}
-.socialMediaImg{
-	
-    background-repeat: no-repeat;
-    background-size: 32px 32px;
-    width: 32px;
-    height: 32px;
-    display: inline-block;
-}
-.socialFacebookImg{
-	background-image: url("../img/fb.PNG");
-}
-.socialGogglePlusImg{
-	background-image: url("../img/g+.PNG");
-}
-.socialTwitterImg{
-	background-image: url("../img/twit.PNG");	
-}
-@media (min-width: 768px) {
-    .vertical-align {
-        display: flex;
-        align-items: center;
-    }
-    .display--flex{
-		display : flex;
-	}
-}
-/* HOME PAGE CSS END*/
+/* Home page css end*/
