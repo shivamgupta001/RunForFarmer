@@ -47,15 +47,15 @@
 	border: green;
 }
 .btn-darkorange button{
-	background-color: darkorange !important;	
+	background-color: #ff6600 !important;	
 	color :white;
 }
 .btn-deepskyblue button{
-	background-color: deepskyblue !important;	
+	background-color: #0099cc !important;	
 	color : white;
 }
 .btn-mediumorchid button{
-	background-color: mediumorchid !important;
+	background-color: #cc3399 !important;
 	color: white;
 }
 .paddingLR--40{
@@ -66,8 +66,44 @@
 	padding-left: 60px;
 	padding-right: 60px;
 }
+.paddingTB--25{
+	padding : 25px 0px 25px 0px;
+}
 .color--green{
-	color : green;
+	color : #006600;
+}
+.bg-color--lightgreen{
+	background-color : #66cc00;	
+}
+.height--525{
+	height : 525px;
+}
+.height--650{
+	height : 650px;
+}
+.max-width--1350{
+	max-width : 1350px;
+}
+.btn{
+	border-radius : 0px;
+	white-space : initial;
+}
+.socialMediaImg{
+	
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.socialFacebookImg{
+	background-image: url("../img/fb.PNG");
+}
+.socialGogglePlusImg{
+	background-image: url("../img/g+.PNG");
+}
+.socialTwitterImg{
+	background-image: url("../img/twit.PNG");	
 }
 @media (min-width: 768px) {
     .vertical-align {
