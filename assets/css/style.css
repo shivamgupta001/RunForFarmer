@@ -26,6 +26,10 @@
     .display--flex{
 		display : flex;
 	}
+	.min-height-block{
+		min-height: 525px;
+	}
+
 }
 @media screen and (min-width: 768px){
 	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
@@ -100,11 +104,8 @@
 .height--150{
 	height : 150px !important;
 }
-.min-height--525{
-	min-height : 525px;
-}
-.height--650{
-	height : 650px;
+.min-height--650{
+	min-height : 650px;
 }
 
 
@@ -133,6 +134,18 @@
     width: 100%;
     padding: 15px;
     border: none;
+}
+.quoteImg{
+	background-repeat: no-repeat;
+    width: 40px;
+    height: 45px;
+    display: inline-block;
+}
+.quoteStartImg{
+	background-image: url("../img/qStart.png");
+}
+.quoteEndImg{
+	background-image: url("../img/qEnd.png");
 }
 .headerLogo{
 	background-image: url("../img/headerLogo.png");
@@ -172,5 +185,8 @@
 .btn-mediumorchid button{
 	background-color: #cc3399 !important;
 	color: white;
+}
+.min-height-block{
+	min-height : 200px;
 }
 /* Home page css end*/
