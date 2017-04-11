@@ -1,4 +1,7 @@
-/*override start*/
+/* CREATED BY shivam gupta 04/11/2017*/
+
+
+/******OVERRIDE START*******/
 .btn{
 	border-radius : 0px;
 	white-space : initial;
@@ -18,29 +21,15 @@
 .glyphicon-chevron-right:before {
 	content: url("../img/right_arw.PNG");
 }
-@media (min-width: 768px) {
-    .vertical-align {
-        display: flex;
-        align-items: center;
-    }
-    .display--flex{
-		display : flex;
-	}
-	.min-height-block{
-		min-height: 525px;
-	}
 
+/******OVERRIDE END******/
+
+
+
+/*****GENERAL CSS START******/
+.flex{
+	display : flex;
 }
-@media screen and (min-width: 768px){
-	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
-		width: 48px;
-    	height: 48px;
-	}	
-}
-/*override end*/
-
-/* General css  start*/
-
 .display--none{
 	display : none;
 }
@@ -89,9 +78,7 @@
 	padding-left: 60px;
 	padding-right: 60px;
 }
-.paddingTB--25{
-	padding : 25px 0px 25px 0px;
-}
+
 .padding-top--10{
 	padding-top: 10px !important;
 }
@@ -117,6 +104,7 @@
 }
 
 
+
 .border-radius--50per{
 	border-radius: 50%;
 }
@@ -124,11 +112,17 @@
 	border-radius: 2px;
 }
 
-/*General css  end*/
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/******GENERAL CSS END********/
 
 
-
-/*Home page css start*/
+/********LANDING PAGE START**********/
 .map-css{
 	height: 100%;
     width: 100%;
@@ -189,4 +183,39 @@
 .min-height-block{
 	min-height : 200px;
 }
-/* Home page css end*/
+.align-self--flex-end{
+	align-self: flex-end;
+}
+.justify-content--flex-end{
+	justify-content: flex-end;
+}
+.paddingTB--25{
+	padding : 10px 0px 10px 0px;
+}
+/*******LANDING PAGE END*********/
+
+
+@media (min-width: 768px) {
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+    .display--flex{
+		display : flex;
+	}
+	.min-height-block{
+		min-height: 400px;
+	}
+	
+}
+@media (min-width: 992px) {
+	.paddingTB--25{
+		padding : 25px 0px 25px 0px;
+	}
+}
+@media screen and (min-width: 768px){
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+		width: 48px;
+    	height: 48px;
+	}	
+}
