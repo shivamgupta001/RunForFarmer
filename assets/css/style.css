@@ -24,12 +24,26 @@
 .navbar{
 	margin-bottom : 0px;
 }
-
+.navbar *{
+	font-family: myriadBold;
+	font-size: 15px;
+}
 /******OVERRIDE END******/
 
 
 
 /*****GENERAL CSS START******/
+@font-face {
+    font-family: myriadBold;
+    src: url("../fonts/Fonts/MyriadPro-Bold.otf");
+}
+@font-face {
+    font-family: myriadRegular;
+    src: url("../fonts/Fonts/MyriadPro-Regular.otf");
+}
+*{
+	font-family: myriadRegular;
+}
 .flex{
 	display : flex;
 }
@@ -118,7 +132,9 @@
 .margin-top-20{
 	margin-top: 20px;
 }
-
+.margin-top--50{
+	margin-top: 50px;
+}
 
 .border-radius--50per{
 	border-radius: 50%;
@@ -223,6 +239,10 @@
 .copyright:hover, 
 .copyright:focus{
 	color : #66cc00 !important;
+}
+address{
+	margin-top : 20px;
+	margin-left : 30px;
 }
 /*******LANDING PAGE END*********/
 
