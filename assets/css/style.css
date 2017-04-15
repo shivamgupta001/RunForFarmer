@@ -33,6 +33,15 @@
 .flex{
 	display : flex;
 }
+.flex-direction--column{
+	flex-direction: column;
+}
+.flex--1{
+	flex : 1;
+}
+.flex--2{
+	flex : 2;
+}
 .display--none{
 	display : none;
 }
@@ -79,10 +88,7 @@
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.paddingLR--106{
-	padding-left: 106px;
-	padding-right: 106px;
-}
+
 
 .padding-top--10{
 	padding-top: 10px !important;
@@ -99,7 +105,9 @@
 .min-height--650{
 	min-height : 650px;
 }
-
+.height--100percent{
+	height : 100%;
+}
 
 .margin--50{
 	margin : 50px;
@@ -133,7 +141,6 @@
 .map-css{
 	height: 100%;
     width: 100%;
-    padding: 15px;
     border: none;
 }
 .quoteImg{
@@ -243,6 +250,10 @@
 	}
 	.navbar {
 		border-radius : 0px;
+	}
+	.paddingLR--106{
+		padding-left: 106px;
+		padding-right: 106px;
 	}
 }
 @media (min-width: 992px) {
