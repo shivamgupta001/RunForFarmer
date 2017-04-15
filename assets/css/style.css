@@ -21,6 +21,9 @@
 .glyphicon-chevron-right:before {
 	content: url("../img/right_arw.PNG");
 }
+.navbar{
+	margin-bottom : 0px;
+}
 
 /******OVERRIDE END******/
 
@@ -60,7 +63,9 @@
 .bg-color--lightgreen{
 	background-color : #66cc00;	
 }
-
+.bg-color--white{
+	background-color: white;
+}
 
 .color--antiquewhite{
 	color : antiquewhite;
@@ -74,9 +79,9 @@
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.paddingLR--60{
-	padding-left: 60px;
-	padding-right: 60px;
+.paddingLR--106{
+	padding-left: 106px;
+	padding-right: 106px;
 }
 
 .padding-top--10{
@@ -102,7 +107,9 @@
 .margin--0{
 	margin : 0px;
 }
-
+.margin-top-20{
+	margin-top: 20px;
+}
 
 
 .border-radius--50per{
@@ -136,10 +143,10 @@
     display: inline-block;
 }
 .quoteStartImg{
-	background-image: url("../img/qStart.png");
+	background-image: url("../img/qStart.PNG");
 }
 .quoteEndImg{
-	background-image: url("../img/qEnd.png");
+	background-image: url("../img/qEnd.PNG");
 }
 .headerLogo{
 	background-image: url("../img/headerLogo.png");
@@ -192,8 +199,25 @@
 .paddingTB--25{
 	padding : 10px 0px 10px 0px;
 }
-/*******LANDING PAGE END*********/
 
+.headerNavbar {
+    background-color: white;
+    border-color: white;
+}
+.headerNavbar .navbar-nav>li>a:hover{
+	background-color: #f8f8f8 !important;
+	border-right: 4px solid #66cc00;
+	color : #66cc00 !important;
+}
+.headerNavbar .navbar-toggle{
+	margin-top: 26px;
+}
+.copyright, 
+.copyright:hover, 
+.copyright:focus{
+	color : #66cc00 !important;
+}
+/*******LANDING PAGE END*********/
 
 @media (min-width: 768px) {
     .vertical-align {
@@ -206,7 +230,20 @@
 	.min-height-block{
 		min-height: 400px;
 	}
-	
+	.headerNavbar .navbar-nav>li>a {
+	    padding-top: 30px;
+	    padding-bottom: 36px;
+	}
+	.headerNavbar .navbar-nav>li>a:hover,
+	.headerNavbar .navbar-nav>li>a:focus{	
+		background-color: #f8f8f8 !important;
+		border-bottom: 4px solid #66cc00;
+		color : #66cc00 !important;
+		border-right : 0px !important;
+	}
+	.navbar {
+		border-radius : 0px;
+	}
 }
 @media (min-width: 992px) {
 	.paddingTB--25{
@@ -219,3 +256,4 @@
     	height: 48px;
 	}	
 }
+
