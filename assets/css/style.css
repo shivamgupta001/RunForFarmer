@@ -44,6 +44,9 @@
 *{
 	font-family: myriadRegular;
 }
+b{
+	font-family: myriadBold;
+}
 .flex{
 	display : flex;
 }
@@ -225,7 +228,8 @@
     background-color: white;
     border-color: white;
 }
-.headerNavbar .navbar-nav>li>a:hover{
+.headerNavbar .navbar-nav>li>a:hover,
+.headerNavbar .navbar-nav>li>a:focus{
 	background-color: #f8f8f8 !important;
 	border-right: 4px solid #66cc00;
 	color : #66cc00 !important;
