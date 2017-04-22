@@ -25,8 +25,11 @@
 	margin-bottom : 0px;
 }
 .navbar *{
-	font-family: myriadBold;
+	font-family: myriadRegular;
 	font-size: 15px;
+}
+.card{
+	font-family: myriadSemiBold;
 }
 /******OVERRIDE END******/
 
@@ -40,6 +43,10 @@
 @font-face {
     font-family: myriadRegular;
     src: url("../fonts/Fonts/MyriadPro-Regular.otf");
+}
+@font-face {
+    font-family: myriadSemiBold;
+    src: url("../fonts/Fonts/MyriadPro-Semibold.otf");
 }
 *{
 	font-family: myriadRegular;
@@ -136,6 +143,10 @@ b{
 .margin-top--50{
 	margin-top: 50px;
 }
+.margin--auto{
+	margin : auto;
+}
+
 
 .border-radius--50per{
 	border-radius: 50%;
@@ -149,6 +160,13 @@ b{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.layout--fit{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
 }
 
 /******GENERAL CSS END********/
@@ -199,17 +217,23 @@ b{
 .socialTwitterImg{
 	background-image: url("../img/twit.PNG");	
 }
-.btn-darkorange button{
-	background-color: #ff6600 !important;	
+.btn-darkorange .card-block{
+	background-color: #ff9900 !important;	
 	color :white;
 }
-.btn-deepskyblue button{
+.btn-deepskyblue .card-block{
 	background-color: #0099cc !important;	
 	color : white;
 }
-.btn-mediumorchid button{
-	background-color: #cc3399 !important;
+.btn-mediumorchid .card-block{
+	background-color: #00cc99 !important;
 	color: white;
+}
+.btn--white{
+	background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 .min-height-block{
 	min-height : 200px;
@@ -248,6 +272,42 @@ address{
 }
 .margin--50{
 	margin : 20px;
+}
+.imgCardEvent{
+	background : url("../img/Running.PNG");
+	background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+    margin : auto;
+    display: inline-block;	
+}
+.card--size{
+	position: relative;
+	width : 310px;
+	height : 230px;
+}
+.card--hover button{
+	visibility: hidden;
+}
+.card--hover:hover{
+	
+	background:rgba(0,0,0,0.3);
+	transition: background 0.5s linear;	
+}
+.card--hover:hover button{
+	visibility: visible;
+	transition: visibility 0.5s linear;
+}
+.card--hover:hover button:hover{
+	color : #66cc00;
+	border-color:  #66cc00;
+}
+.imgCountdown{
+	background : url("../img/1.JPG");
+	background-repeat: no-repeat;
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.5);
+
 }
 /*******LANDING PAGE END*********/
 
@@ -296,3 +356,35 @@ address{
 	}	
 }
 
+/*CLOCK COMPONENT START*/
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	/*background: #00BF96;*/
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	/*background: #00816A;*/
+	display: inline-block;
+	font-size: 4em;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+/*CLOCK COMPONENT END*/
