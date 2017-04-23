@@ -31,6 +31,19 @@
 .card{
 	font-family: myriadSemiBold;
 }
+.carousel-indicators{
+	bottom : -30px;
+}
+.carousel-indicators li{
+	background-image: url("../img/testimonial_regular.PNG");
+	width : 16px;
+	height : 16px;
+}
+.carousel-indicators li.active{
+	background-image: url("../img/testimonial.PNG");
+	width : 16px;
+	height : 16px;
+}
 /******OVERRIDE END******/
 
 
@@ -54,6 +67,16 @@
 b{
 	font-family: myriadBold;
 }
+.font--myriadsemibold{
+	font-family: myriadSemiBold;
+}
+.font-size--18{
+	font-size: 18px;
+}
+.font-size--25{
+	font-size: 25px;
+}
+
 .flex{
 	display : flex;
 }
@@ -100,11 +123,18 @@ b{
 	background-color: white;
 }
 
+
 .color--antiquewhite{
 	color : antiquewhite;
 }
 .color--green{
 	color : #006600;
+}
+.color--blue{
+	color : #0085ff;
+}
+.color--white{
+	color : white;
 }
 
 
@@ -112,8 +142,6 @@ b{
 	padding-left: 40px;
 	padding-right: 40px;
 }
-
-
 .padding-top--10{
 	padding-top: 10px !important;
 }
@@ -125,6 +153,9 @@ b{
 
 .height--150{
 	height : 150px !important;
+}
+.min-height--300{
+	min-height: 300px;
 }
 .min-height--650{
 	min-height : 650px;
@@ -303,11 +334,10 @@ address{
 	border-color:  #66cc00;
 }
 .imgCountdown{
-	background : url("../img/1.JPG");
+	background : url("../img/countdownbg.JPG");
 	background-repeat: no-repeat;
     display: inline-block;
-    background-color:rgba(0, 0, 0, 0.5);
-
+    width : 100%;
 }
 /*******LANDING PAGE END*********/
 
@@ -343,6 +373,9 @@ address{
 	.margin--50{
 		margin : 50px;
 	}
+	#clockdiv div > span{
+		font-size: 1em;	
+	}
 }
 @media (min-width: 992px) {
 	.paddingTB--25{
@@ -368,22 +401,17 @@ address{
 }
 
 #clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	/*background: #00BF96;*/
+	padding: 0px 10px 0px 10px;
 	display: inline-block;
 }
 
 #clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	/*background: #00816A;*/
-	display: inline-block;
-	font-size: 4em;
+	padding: 5px;
+	font-size: 4em;	
 }
 
 .smalltext{
-	padding-top: 5px;
+	margin-top: -30px;
 	font-size: 16px;
 }
 
