@@ -160,6 +160,9 @@ b{
 .min-height--650{
 	min-height : 650px;
 }
+.height--450{
+	height : 450px;
+}
 .height--100percent{
 	height : 100%;
 }
@@ -176,6 +179,9 @@ b{
 }
 .margin--auto{
 	margin : auto;
+}
+.margin-bottom--50{
+	margin-bottom: 50px;
 }
 
 
@@ -338,8 +344,45 @@ address{
 	background-repeat: no-repeat;
     display: inline-block;
     width : 100%;
+    background-size: cover;
+}
+.imgFooterbg{
+	background : url("../img/footer1.JPG");
+	background-repeat: no-repeat;
+    display: inline-block;
+    width : 100%;	
+    background-size : cover;
 }
 /*******LANDING PAGE END*********/
+
+
+/*CLOCK COMPONENT START*/
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 0px 20px 0px 20px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 5px;
+	font-size: 2em;	
+}
+
+.smalltext{
+	margin-top: -30px;
+	font-size: 16px;
+}
+
+/*CLOCK COMPONENT END*/
 
 @media (min-width: 768px) {
     .vertical-align {
@@ -374,12 +417,20 @@ address{
 		margin : 50px;
 	}
 	#clockdiv div > span{
-		font-size: 1em;	
+		font-size: 3em;	
+	}
+}
+@media (min-width: 800px) {
+	#clockdiv div > span{
+		font-size: 4em;	
 	}
 }
 @media (min-width: 992px) {
 	.paddingTB--25{
 		padding : 25px 0px 25px 0px;
+	}
+	#clockdiv div > span{
+		font-size: 5em;	
 	}
 }
 @media screen and (min-width: 768px){
@@ -388,31 +439,3 @@ address{
     	height: 48px;
 	}	
 }
-
-/*CLOCK COMPONENT START*/
-
-#clockdiv{
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 30px;
-}
-
-#clockdiv > div{
-	padding: 0px 10px 0px 10px;
-	display: inline-block;
-}
-
-#clockdiv div > span{
-	padding: 5px;
-	font-size: 4em;	
-}
-
-.smalltext{
-	margin-top: -30px;
-	font-size: 16px;
-}
-
-/*CLOCK COMPONENT END*/
