@@ -30,6 +30,7 @@
 }
 .card{
 	font-family: myriadSemiBold;
+	margin : auto;
 }
 .carousel-indicators{
 	bottom : -30px;
@@ -43,6 +44,9 @@
 	background-image: url("../img/testimonial.PNG");
 	width : 16px;
 	height : 16px;
+}
+#myCarousel img{
+	width : 100%;
 }
 /******OVERRIDE END******/
 
@@ -100,9 +104,6 @@ b{
 }
 .align-items--center{
 	align-items: center;
-}
-.max-width--1350{
-	max-width : 1350px;
 }
 .horizontal__center{
 	display: flex;
@@ -234,6 +235,7 @@ b{
     height: 90px;
     display: inline-block;
     float : left;
+    
 }
 .socialMediaImg{
 	background-repeat: no-repeat;
@@ -395,6 +397,9 @@ address{
 	.min-height-block{
 		min-height: 400px;
 	}
+	#RunForFramerNav ul{
+		margin-right : 50px;
+	}
 	.headerNavbar .navbar-nav>li>a {
 	    padding-top: 30px;
 	    padding-bottom: 36px;
@@ -419,6 +424,9 @@ address{
 	#clockdiv div > span{
 		font-size: 3em;	
 	}
+	.headerLogo{
+		margin-left: 50px;
+	}	
 }
 @media (min-width: 800px) {
 	#clockdiv div > span{
