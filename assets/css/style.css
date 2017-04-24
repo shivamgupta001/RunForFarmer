@@ -77,6 +77,9 @@ b{
 .font-size--18{
 	font-size: 18px;
 }
+.font-size--16{
+	font-size: 16px;
+}
 .font-size--25{
 	font-size: 25px;
 }
@@ -146,8 +149,8 @@ b{
 .padding-top--10{
 	padding-top: 10px !important;
 }
-.padding--5{
-	padding: 5px;
+.paddingTRL--5{
+	padding: 5px 5px 0px 5px;
 }
 
 
@@ -294,8 +297,9 @@ b{
     background-color: white;
     border-color: white;
 }
-.headerNavbar .navbar-nav>li>a:hover,
-.headerNavbar .navbar-nav>li>a:focus{
+.headerNavbar .navbar-nav>li:hover,
+.headerNavbar .navbar-nav>li:focus,
+.headerNavbar .navbar-nav>li.active{
 	background-color: #f8f8f8 !important;
 	border-right: 4px solid #66cc00;
 	color : #66cc00 !important;
@@ -331,8 +335,7 @@ address{
 .card--hover button{
 	visibility: hidden;
 }
-.card--hover:hover{
-	
+.card--hover:hover{	
 	background:rgba(0,0,0,0.3);
 	transition: background 0.5s linear;	
 }
@@ -370,7 +373,9 @@ address{
 	color : white;	
 	bottom:  0px;
 }
-
+#myTestimonial span{
+	display: inline-block;
+}
 /*******LANDING PAGE END*********/
 
 
@@ -420,8 +425,9 @@ address{
 	    padding-top: 30px;
 	    padding-bottom: 36px;
 	}
-	.headerNavbar .navbar-nav>li>a:hover,
-	.headerNavbar .navbar-nav>li>a:focus{	
+	.headerNavbar .navbar-nav>li:hover,
+	.headerNavbar .navbar-nav>li:focus,
+	.headerNavbar .navbar-nav>li.active{	
 		background-color: #f8f8f8 !important;
 		border-bottom: 4px solid #66cc00;
 		color : #66cc00 !important;
@@ -443,6 +449,9 @@ address{
 	.headerLogo{
 		margin-left: 50px;
 	}	
+	.marginLR--30{
+		margin : 0px 30px 0px 25px;
+	}
 
 }
 @media (min-width: 800px) {
@@ -460,7 +469,17 @@ address{
 	.text-align--rightRes{
 		text-align: right;
 	}
+	
 }
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
+	.margin-left--30{
+		margin-left: 30px;
+	}
+	.event--flex{
+		display: flex;
+	}
+}
+
 @media screen and (min-width: 768px){
 	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
 		width: 48px;
