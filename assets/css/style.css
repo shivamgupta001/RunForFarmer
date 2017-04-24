@@ -206,6 +206,9 @@ b{
 	right: 0px;
 	bottom: 0px;
 }
+.position--relative{
+	position : relative;
+}
 
 /******GENERAL CSS END********/
 
@@ -355,6 +358,19 @@ address{
     width : 100%;	
     background-size : cover;
 }
+.text-align--rightRes{
+	text-align: center;
+}
+.eventDateCountDown{
+	position: absolute;
+	font-family: myriadBold;
+	font-size: 2em;
+	left : 50%;
+	transform : translateX(-50%);
+	color : white;	
+	bottom:  0px;
+}
+
 /*******LANDING PAGE END*********/
 
 
@@ -427,6 +443,7 @@ address{
 	.headerLogo{
 		margin-left: 50px;
 	}	
+
 }
 @media (min-width: 800px) {
 	#clockdiv div > span{
@@ -439,6 +456,9 @@ address{
 	}
 	#clockdiv div > span{
 		font-size: 5em;	
+	}
+	.text-align--rightRes{
+		text-align: right;
 	}
 }
 @media screen and (min-width: 768px){
