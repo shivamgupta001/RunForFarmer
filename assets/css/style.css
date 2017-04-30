@@ -111,10 +111,7 @@ b{
 .align-items--center{
 	align-items: center;
 }
-.horizontal__center{
-	display: flex;
-	justify-content: center;
-}
+
 
 
 .bg-color--black{
