@@ -48,6 +48,9 @@
 #myCarousel img{
 	width : 100%;
 }
+body{
+	width : 100%;
+}
 /******OVERRIDE END******/
 
 
@@ -187,6 +190,9 @@ b{
 .margin-bottom--50{
 	margin-bottom: 50px;
 }
+.margin--15{
+	margin: 15px;
+}
 
 
 .border-radius--50per{
@@ -257,7 +263,7 @@ b{
 	background-image: url("../img/fb.PNG");
 }
 .socialGogglePlusImg{
-	background-image: url("../img/g+.PNG");
+	background-image: url("../img/gp.PNG");
 }
 .socialTwitterImg{
 	background-image: url("../img/twit.PNG");	
@@ -367,11 +373,12 @@ address{
 .eventDateCountDown{
 	position: absolute;
 	font-family: myriadBold;
-	font-size: 2em;
+	font-size: 1em;
 	left : 50%;
 	transform : translateX(-50%);
 	color : white;	
 	bottom:  0px;
+	line-height: 45px;
 }
 #myTestimonial span{
 	display: inline-block;
@@ -452,6 +459,15 @@ address{
 	.marginLR--30{
 		margin : 0px 30px 0px 25px;
 	}
+	.eventDateCountDown{
+		position: absolute;
+		font-family: myriadBold;
+		font-size: 2em;
+		left : 50%;
+		transform : translateX(-50%);
+		color : white;	
+		bottom:  0px;
+	}
 
 }
 @media (min-width: 800px) {
@@ -486,3 +502,31 @@ address{
     	height: 48px;
 	}	
 }
+
+
+
+/****** Scroll Button Start *********/
+#btn-Scroll {
+    display: none;
+        background-size: 40px 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-repeat: no-repeat;
+    z-index: 99;
+    border: none;
+    outline: none;
+    /* background-color: red; */
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50%;
+    background-image: url(../img/btn-scrollup.png);
+
+}
+
+#btn-Scroll:hover {
+    background-color: #8a8a8a; /* Add a dark-grey background on hover */
+}
+
+/****** Scroll Button End *********/
