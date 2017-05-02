@@ -362,7 +362,7 @@
                     <li><a href="#event-sec">Events</a></li>
                     <!--<li><a href="#contact">Schedule</a></li>-->
                     <li><a href="#contact">Register</a></li>
-                    <!--<li><a href="#contact">Organizer</a></li>-->
+                    <li><a href="#organizer">Organizer</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>
                 
@@ -377,6 +377,11 @@
     <script type="text/javascript" src="assets/js/countdown.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript">
+        $(document).ready(function () {
+            $(".navbar-nav li a").click(function(event) {
+                $('button.navbar-toggle').click()
+            });
+        });
         $(document).on('click', 'a', function(event){
             event.preventDefault();
 
@@ -403,6 +408,8 @@
                 scrollTop: 0
             }, 1000);
         }
+
+        
     </script>
 </body>
 </html>
