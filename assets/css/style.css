@@ -151,6 +151,9 @@ b{
 .color--white{
 	color : white;
 }
+.colorOrganizer--green{
+	color: #3c7305;
+}
 
 
 .paddingLR--40{
@@ -403,6 +406,9 @@ address{
 #myTestimonial span{
 	display: inline-block;
 }
+.font-size--27{
+	font-size: 11px;
+}
 /*******LANDING PAGE END*********/
 
 
@@ -500,6 +506,9 @@ address{
 	.margin-topb768--20{
 		margin-top: 0px;
 	}
+	.font-size--27{
+		font-size:  27px;
+	}
 }
 @media (min-width: 800px) {
 	#clockdiv div > span{
@@ -517,6 +526,11 @@ address{
 		text-align: right;
 	}
 	
+}
+@media only screen and (max-width: 768px) and (min-width: 450px)  {
+	.font-size--27{
+		font-size : 18px;
+	}
 }
 @media only screen and (max-width: 992px) and (min-width: 768px)  {
 	.margin-left--30{
