@@ -431,7 +431,9 @@ address{
 	margin-top: -30px;
 	font-size: 16px;
 }
-
+.margin-topb768--20{
+	margin-top: 20px;
+}
 /*CLOCK COMPONENT END*/
 
 @media (min-width: 768px) {
@@ -495,7 +497,9 @@ address{
 		color : white;	
 		bottom:  0px;
 	}
-
+	.margin-topb768--20{
+		margin-top: 0px;
+	}
 }
 @media (min-width: 800px) {
 	#clockdiv div > span{
