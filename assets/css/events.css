@@ -1,0 +1,62 @@
+.eventImg{
+	background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.eventMedal{
+	background-image: url("../img/events/medal.PNG");
+}
+.eventCertificate{
+	background-image: url("../img/events/certificate.png");	
+}
+.eventShirt{
+	background-image: url("../img/events/shirt.PNG");		
+}
+.bg-col--33cc99{
+	background-color: #33cc99;
+}
+.bg-col--0099ff{
+	background-color: #0099ff;
+}
+.bg-col--ff6666{
+	background-color: #ff6666;
+}
+
+.eventTable{
+	border : 1px solid black;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.eventTable th{
+	vertical-align: middle !important;
+}
+.eventBackground{
+	background-image: url("../img/events/titlebar.png");
+	background-repeat: no-repeat;
+	height : 85px;
+	display : flex;
+	align-items: center;
+	font-family: myriadBold;
+	font-size: 32px;
+	color : white;
+}
+.eventTableHeader{
+	font-size: 22px;
+	font-family: myriadSemiBold;
+	margin-top: 10px;
+	margin-left : 10px;
+}
+.eventTrackImg{
+	background-image: url("../img/events/track.PNG");
+	background-repeat: no-repeat;
+	height : 900px;	
+	margin-top: 20px;
+	border : 1px solid black;
+	border-radius: 2px;
+}
+.eventRouteDetails{
+	margin-top: 20px;
+	border : 1px solid black;
+	border-radius: 2px;	
+}
